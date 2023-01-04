@@ -13,18 +13,15 @@
         <form
           action="https://jheisonboaventura.github.io/projeto-site/form.html"
         >
-          <div id="name">
-            <label for="name" id="name"><strong> Nome:</strong></label>
+          <div id="name_email">
+            <label for="name"><strong> Nome:</strong></label>
             <input
               type="text"
               name="name"
               placeholder="Digite seu nome completo"
               required
             />
-          </div>
-          <br />
-          <div id="email">
-            <label for="email" id="email"><strong> Email</strong></label>
+            <label for="email"><strong>- Email</strong></label>
             <input
               type="email"
               name="email"
@@ -33,15 +30,37 @@
             />
           </div>
           <br />
-          <div id="endereco">
-            <label for="endereco" id="endereco"
-              ><strong>Endereço</strong></label
-            >
+          <div id="estado_cidade">
+            <label for="estado"><strong> Estado:</strong></label>
+            <input
+              type="text"
+              name="estado"
+              placeholder="Digite seu estado"
+              required
+            />
+            <label for="cidade"><strong> - Cidade:</strong></label>
+            <input
+              type="text"
+              name="cidade"
+              placeholder="Digite sua cidade"
+              required
+            />
+          </div>
+          <br />
+          <div id="endereco_telefone">
+            <label for="endereco"><strong>Endereço</strong></label>
             <input
               type="text"
               name="endereco"
               id="endereco"
               placeholder="Av. Brasil, N°22"
+            />
+            <label for="telefone"><strong>- Telefone:</strong></label>
+            <input
+              type="tel"
+              name="telefone"
+              placeholder="Digite seu telefone"
+              required
             />
           </div>
         </form>

@@ -14,13 +14,13 @@ h1 {
   width: 2%;
   padding-left: 540px;
 }
-#name {
+#name_email {
   text-align: center;
 }
-#email {
+#endereco_telefone {
   text-align: center;
 }
-#endereco {
+#estado_cidade {
   text-align: center;
 }
 #footer {
