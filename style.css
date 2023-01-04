@@ -1,12 +1,7 @@
-#header {
+h1 {
   color: rgb(212, 18, 115);
   text-align: center;
   padding-top: 15px;
-}
-#bodypg1 {
-  box-shadow: 1px 2px 3px 3px;
-  padding-left: 300px;
-  padding-right: 300px;
 }
 #article1pg1 {
   text-align: center;
@@ -17,16 +12,23 @@
 }
 #back {
   width: 2%;
-}
-#bodypg2 {
-  box-shadow: 1px 2px 3px 3px;
-  padding-top: 50px;
-  text-align: center;
+  padding-left: 540px;
 }
 #name {
+  text-align: center;
+}
+#email {
   text-align: center;
 }
 #footer {
   text-align: left;
   padding-top: 100px;
+}
+body {
+  background-image: html(
+    "https://img.freepik.com/premium-vector/job-career-with-big-word-style-team-people-office-around-with-business-icon_25147-252.jpg?w=900"
+  );
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(197, 205, 212);
 }
