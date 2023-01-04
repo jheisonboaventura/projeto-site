@@ -1,13 +1,17 @@
 #header {
   color: rgb(212, 18, 115);
   text-align: center;
+  padding-top: 15px;
 }
-#body {
-  box-shadow: 3px 3px 3px 3px;
+#bodypg1 {
+  box-shadow: 1px 2px 3px 3px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 #article1pg1 {
   text-align: center;
 }
 #submitpg1 {
   text-align: center;
+  padding-bottom: 50px;
 }
