@@ -17,7 +17,9 @@ h1 {
 }
 #back {
   width: 5%;
-  padding-left: 380px;
+  padding: 0px;
+  border: black solid 2px;
+  margin-left: 380px;
 }
 #name_email {
   text-align: center;
