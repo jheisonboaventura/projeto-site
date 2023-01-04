@@ -18,8 +18,8 @@ h1 {
 #back {
   width: 5%;
   padding: 0px;
-  border: black solid 2px;
   margin-left: 380px;
+  box-shadow: 5px 5px 4px black;
 }
 #name_email {
   text-align: center;
