@@ -5,6 +5,7 @@ h1 {
   font-size: 50px;
 }
 #titlepg2 {
+  padding-top: 15px;
   font-size: 50px;
 }
 #article1pg1 {
@@ -36,4 +37,5 @@ body {
   background-position: center;
   background-size: cover;
   background-color: rgb(197, 205, 212);
+  background-repeat: no-repeat;
 }
