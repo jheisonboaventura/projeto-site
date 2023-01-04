@@ -1,12 +1,23 @@
-h1 {
+#titlepg1 {
   color: rgb(212, 18, 115);
   text-align: center;
-  padding-top: 15px;
+  padding: 0px;
   font-size: 50px;
+  box-shadow: 2px 2px 1px 1px black;
+  width: 25%;
+  margin: auto;
+  margin-top: 20px;
 }
 #titlepg2 {
-  padding-top: 15px;
+  color: rgb(212, 18, 115);
+  text-align: center;
+  padding: 0px;
   font-size: 50px;
+  box-shadow: 2px 2px 1px 1px black;
+  width: 42%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #article1pg1 {
   text-align: center;
@@ -19,7 +30,7 @@ h1 {
   width: 5%;
   padding: 0px;
   margin-left: 380px;
-  box-shadow: 5px 5px 4px black;
+  box-shadow: 3px 3px 4px 1px black;
 }
 #name_email {
   text-align: center;
